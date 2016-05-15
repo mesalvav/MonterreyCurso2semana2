@@ -18,7 +18,9 @@ class ViewControllerCocinar: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       /*
+      
+         self.view.backgroundColor =  UIColor(patternImage: UIImage(named: "sliceofpizza.png")!)
+        /*
         print(" ")
         for (k,v) in ordenDeViewCocinar {
             print(k)
@@ -45,8 +47,7 @@ class ViewControllerCocinar: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
+   
     /*
     echo "# MonterreyCurso2semana2" >> README.md
     git init

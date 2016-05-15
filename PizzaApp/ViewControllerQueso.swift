@@ -13,21 +13,19 @@ class ViewControllerQueso: UIViewController, UIPickerViewDelegate {
     var ordenDeViewQueso = ["":[""]]
     var arrayQueso = ["Mozarela", "Cheddar", "Parmesano", "Sin queso"]
     var quesoSeleccionado = "Mozarela"
+    var arrayImagenesDeQueso = [ "mozzarella.png", "cheddar.jpg" , "parmesano.jpg" , "noQueso.JPG"]
     
     @IBOutlet weak var pickerQueso: UIPickerView!
     
+    @IBOutlet weak var imagenDeQueso: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.pickerQueso.delegate = self
-       /*
-        for (k,v) in ordenDeViewQueso {
-            print(k)
-            for dec2 in v {
-                print(" \(dec2)")
-            }
-        }*/
-       
+        
+        self.view.backgroundColor =  UIColor(patternImage: UIImage(named: "sliceofpizza.png")!)
+        self.imagenDeQueso.image = UIImage(named: arrayImagenesDeQueso[0])
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,7 +55,7 @@ class ViewControllerQueso: UIViewController, UIPickerViewDelegate {
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        
+        self.imagenDeQueso.image = UIImage(named: arrayImagenesDeQueso[row])
         quesoSeleccionado = arrayQueso[row]
         //NSLog(masaSeleccionada)
     }

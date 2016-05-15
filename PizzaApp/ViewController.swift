@@ -7,12 +7,14 @@
 //
 
 import UIKit
-
+@IBDesignable
 class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     @IBOutlet weak var tamañoPicker: UIPickerView!
+    @IBOutlet weak var imagenesSizeView: UIImageView!
     
     var ArrayTamaño = ["Chica", "Mediana", "Grande"];
+    var ArrayImagenesSize = ["chicaSize.png","medianaSize.png","grandeSize.png"]
     var TamañoSelecionado = "Chica"
     
     var ordenDeViewTamaño = ["":[""]]
@@ -23,6 +25,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         // Do any additional setup after loading the view, typically from a nib.
         self.tamañoPicker.delegate = self
         self.tamañoPicker.dataSource = self
+         self.view.backgroundColor =  UIColor(patternImage: UIImage(named: "sliceofpizza.png")!)
+        self.imagenesSizeView.image = UIImage(named: ArrayImagenesSize[0])
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,6 +39,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         let sigVista = segue.destinationViewController as! ViewControllerMasa
         ordenDeViewTamaño[""] = nil
         sigVista.ordenDeViewMasa = ordenDeViewTamaño
+        
+       // let prevVista = segue.destinationViewController as! ViewControllerInicios
+       // prevVista.luigiOK.center = prevVista.view.center
+        
     }
 
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
@@ -52,7 +60,10 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
         TamañoSelecionado = ArrayTamaño[row]
-       // NSLog(TamañoSelecionado)
+        //print(ArrayImagenesSize[row])
+        let laimagen = UIImage(named: ArrayImagenesSize[row])
+        self.imagenesSizeView.image = laimagen
+       
     }
     
     

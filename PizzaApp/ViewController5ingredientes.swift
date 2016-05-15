@@ -17,19 +17,16 @@ class ViewController5ingredientes: UIViewController {
     @IBOutlet weak var PavoSwitch: UISwitch!
     @IBOutlet weak var salchichaSwitch: UISwitch!
     @IBOutlet weak var aceitunaSwitch: UISwitch!
+    @IBOutlet weak var pimientoSwitch: UISwitch!
+    @IBOutlet weak var piñaSwitch: UISwitch!
+    @IBOutlet weak var anchoaSwitch: UISwitch!
+    @IBOutlet weak var cebollasSwitch: UISwitch!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.navigationController?.navigationBar.hidden = true
-       /*
-        print(" ")
-        for (k,v) in ordenDeView5Ingredientes {
-            print(k)
-            for dec2 in v {
-                print(" \(dec2)")
-            }
-        } */
+        self.view.backgroundColor =  UIColor(patternImage: UIImage(named: "sliceofpizza.png")!)
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,15 +37,31 @@ class ViewController5ingredientes: UIViewController {
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
         let almenosUno = testAllSwitches()
         
-        if (!almenosUno) {
+        if (!almenosUno.0) {
             let alert = UIAlertController(title: "Los Ingredientes", message: "Al menos un ingrediente debe ser adicionado a la pizza para ordenar", preferredStyle: UIAlertControllerStyle.Alert)
             
             alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
             
             self.presentViewController(alert, animated: true, completion: nil)
+            return almenosUno.0
         }
         
-        return almenosUno
+            if (almenosUno.1 > 5 )
+            {
+                let alert = UIAlertController(title: "Los Ingredientes", message: "No mas de 5 ingrediente deben ser adicionado a la pizza para ordenar", preferredStyle: UIAlertControllerStyle.Alert)
+                
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                
+                self.presentViewController(alert, animated: true, completion: nil)
+                
+                return false
+            }
+            
+            
+            
+            else{return true}
+        
+        
         
     }
    
@@ -60,6 +73,10 @@ class ViewController5ingredientes: UIViewController {
         if(self.PavoSwitch.on) {arrayIngredients.append("Pavo")}
         if(self.salchichaSwitch.on) {arrayIngredients.append("Salchicha")}
         if(self.aceitunaSwitch.on) {arrayIngredients.append("Aceituna")}
+        if(self.pimientoSwitch.on) {arrayIngredients.append("Pimiento")}
+        if(self.anchoaSwitch.on) {arrayIngredients.append("Anchoa")}
+        if(self.cebollasSwitch.on) {arrayIngredients.append("Cebolla")}
+         if(self.piñaSwitch.on) {arrayIngredients.append("Piña")}
         arrayIngredients.removeFirst()
         
          ordenDeView5Ingredientes["Ingredientes"] = arrayIngredients
@@ -73,14 +90,27 @@ class ViewController5ingredientes: UIViewController {
     
     
     
-    func testAllSwitches()->Bool {
+    func testAllSwitches()->(Bool,Int) {
         
         let alMenosUno =
         self.jamonSwitch.on || self.peperoniSwitch.on ||
         self.PavoSwitch.on || self.salchichaSwitch.on ||
-        self.aceitunaSwitch.on
+        self.aceitunaSwitch.on || self.anchoaSwitch.on ||
+        self.pimientoSwitch.on || self.piñaSwitch.on ||
+        self.anchoaSwitch.on || self.cebollasSwitch.on
         
-        return alMenosUno
+        var numberOfIngredients = 0
+        if( self.jamonSwitch.on ) { numberOfIngredients += 1}
+        if(self.peperoniSwitch.on) {numberOfIngredients += 1}
+        if(self.PavoSwitch.on) {numberOfIngredients += 1}
+        if(self.salchichaSwitch.on) {numberOfIngredients += 1}
+        if(self.aceitunaSwitch.on) {numberOfIngredients += 1}
+        if(self.pimientoSwitch.on) {numberOfIngredients += 1}
+        if(self.anchoaSwitch.on) {numberOfIngredients += 1}
+        if(self.cebollasSwitch.on) {numberOfIngredients += 1}
+        if(self.piñaSwitch.on) {numberOfIngredients += 1}
+        
+        return (alMenosUno, numberOfIngredients)
     }
 
 }

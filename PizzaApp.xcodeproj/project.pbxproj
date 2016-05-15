@@ -7,8 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3F8E2F1CE6F6CE009A2010 /* message-pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = AB3F8E2E1CE6F6CE009A2010 /* message-pizza.png */; };
 		AB6ABA3B1C3EBEE80026BC86 /* ViewController5ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ABA3A1C3EBEE80026BC86 /* ViewController5ingredientes.swift */; };
 		AB6ABA3D1C3EE8500026BC86 /* ViewControllerCocinar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6ABA3C1C3EE8500026BC86 /* ViewControllerCocinar.swift */; };
+		AB7E31431CE7E1B200223673 /* chicaSize.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31421CE7E1B200223673 /* chicaSize.png */; };
+		AB7E31451CE7E9B400223673 /* medianaSize.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31441CE7E9B400223673 /* medianaSize.png */; };
+		AB7E31471CE7E9F300223673 /* grandeSize.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31461CE7E9F300223673 /* grandeSize.png */; };
+		AB7E31491CE8132B00223673 /* PIxZxZxA.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31481CE8132B00223673 /* PIxZxZxA.png */; };
+		AB7E314C1CE8982B00223673 /* soyunapizza.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB7E314B1CE8982B00223673 /* soyunapizza.mp3 */; };
+		AB7E314E1CE89BB200223673 /* noQueso.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AB7E314D1CE89BB200223673 /* noQueso.JPG */; };
+		AB7E31501CE89D3100223673 /* mozzarella.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7E314F1CE89D3100223673 /* mozzarella.png */; };
+		AB7E31521CE89DF700223673 /* cheddar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31511CE89DF700223673 /* cheddar.jpg */; };
+		AB7E31541CE89E7600223673 /* parmesano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31531CE89E7600223673 /* parmesano.jpg */; };
+		AB7E31561CE8C9B000223673 /* iconPizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31551CE8C9B000223673 /* iconPizza.jpg */; };
+		AB7E31581CE8CF2D00223673 /* enjoy.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AB7E31571CE8CF2D00223673 /* enjoy.jpeg */; };
+		AB7E315A1CE8D10A00223673 /* ViewControllerGracias.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7E31591CE8D10A00223673 /* ViewControllerGracias.swift */; };
+		AB7FCE611CE64F8300ADDF93 /* ViewControllerInicios.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7FCE601CE64F8300ADDF93 /* ViewControllerInicios.swift */; };
+		AB7FCE641CE6633F00ADDF93 /* Luiguis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB7FCE631CE6633F00ADDF93 /* Luiguis.jpg */; };
+		AB7FCE661CE6651100ADDF93 /* luigis-pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7FCE651CE6651100ADDF93 /* luigis-pizza.png */; };
+		AB7FCE6A1CE66DB200ADDF93 /* sliceofpizza.png in Resources */ = {isa = PBXBuildFile; fileRef = AB7FCE691CE66DB200ADDF93 /* sliceofpizza.png */; };
 		ABD9134E1C3D59A3001C4437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD9134D1C3D59A3001C4437 /* AppDelegate.swift */; };
 		ABD913501C3D59A3001C4437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD9134F1C3D59A3001C4437 /* ViewController.swift */; };
 		ABD913531C3D59A3001C4437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD913511C3D59A3001C4437 /* Main.storyboard */; };
@@ -20,8 +37,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3F8E2E1CE6F6CE009A2010 /* message-pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message-pizza.png"; sourceTree = "<group>"; };
 		AB6ABA3A1C3EBEE80026BC86 /* ViewController5ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5ingredientes.swift; sourceTree = "<group>"; };
 		AB6ABA3C1C3EE8500026BC86 /* ViewControllerCocinar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCocinar.swift; sourceTree = "<group>"; };
+		AB7E31421CE7E1B200223673 /* chicaSize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicaSize.png; sourceTree = "<group>"; };
+		AB7E31441CE7E9B400223673 /* medianaSize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medianaSize.png; sourceTree = "<group>"; };
+		AB7E31461CE7E9F300223673 /* grandeSize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grandeSize.png; sourceTree = "<group>"; };
+		AB7E31481CE8132B00223673 /* PIxZxZxA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PIxZxZxA.png; sourceTree = "<group>"; };
+		AB7E314A1CE8232400223673 /* pizzaring.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pizzaring.m4a; sourceTree = "<group>"; };
+		AB7E314B1CE8982B00223673 /* soyunapizza.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soyunapizza.mp3; sourceTree = "<group>"; };
+		AB7E314D1CE89BB200223673 /* noQueso.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = noQueso.JPG; sourceTree = "<group>"; };
+		AB7E314F1CE89D3100223673 /* mozzarella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mozzarella.png; sourceTree = "<group>"; };
+		AB7E31511CE89DF700223673 /* cheddar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cheddar.jpg; sourceTree = "<group>"; };
+		AB7E31531CE89E7600223673 /* parmesano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = parmesano.jpg; sourceTree = "<group>"; };
+		AB7E31551CE8C9B000223673 /* iconPizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iconPizza.jpg; sourceTree = "<group>"; };
+		AB7E31571CE8CF2D00223673 /* enjoy.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = enjoy.jpeg; sourceTree = "<group>"; };
+		AB7E31591CE8D10A00223673 /* ViewControllerGracias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGracias.swift; sourceTree = "<group>"; };
+		AB7FCE601CE64F8300ADDF93 /* ViewControllerInicios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerInicios.swift; sourceTree = "<group>"; };
+		AB7FCE631CE6633F00ADDF93 /* Luiguis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Luiguis.jpg; sourceTree = "<group>"; };
+		AB7FCE651CE6651100ADDF93 /* luigis-pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "luigis-pizza.png"; sourceTree = "<group>"; };
+		AB7FCE691CE66DB200ADDF93 /* sliceofpizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliceofpizza.png; sourceTree = "<group>"; };
 		ABD9134A1C3D59A3001C4437 /* PizzaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD9134D1C3D59A3001C4437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD9134F1C3D59A3001C4437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +80,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB7FCE621CE6632100ADDF93 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				AB7E314A1CE8232400223673 /* pizzaring.m4a */,
+				AB7FCE631CE6633F00ADDF93 /* Luiguis.jpg */,
+				AB7E31551CE8C9B000223673 /* iconPizza.jpg */,
+				AB7FCE691CE66DB200ADDF93 /* sliceofpizza.png */,
+				AB7E31421CE7E1B200223673 /* chicaSize.png */,
+				AB7E314F1CE89D3100223673 /* mozzarella.png */,
+				AB7E31511CE89DF700223673 /* cheddar.jpg */,
+				AB7E314D1CE89BB200223673 /* noQueso.JPG */,
+				AB7E31531CE89E7600223673 /* parmesano.jpg */,
+				AB7E31571CE8CF2D00223673 /* enjoy.jpeg */,
+				AB7E314B1CE8982B00223673 /* soyunapizza.mp3 */,
+				AB7E31441CE7E9B400223673 /* medianaSize.png */,
+				AB7E31461CE7E9F300223673 /* grandeSize.png */,
+				AB3F8E2E1CE6F6CE009A2010 /* message-pizza.png */,
+				AB7E31481CE8132B00223673 /* PIxZxZxA.png */,
+				AB7FCE651CE6651100ADDF93 /* luigis-pizza.png */,
+			);
+			name = imagenes;
+			sourceTree = "<group>";
+		};
 		ABD913411C3D59A2001C4437 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +122,20 @@
 		ABD9134C1C3D59A3001C4437 /* PizzaApp */ = {
 			isa = PBXGroup;
 			children = (
+				AB7FCE621CE6632100ADDF93 /* imagenes */,
 				ABD9134D1C3D59A3001C4437 /* AppDelegate.swift */,
 				ABD9134F1C3D59A3001C4437 /* ViewController.swift */,
 				ABD913511C3D59A3001C4437 /* Main.storyboard */,
 				AB6ABA3C1C3EE8500026BC86 /* ViewControllerCocinar.swift */,
 				ABD913641C3E277C001C4437 /* ViewControllerQueso.swift */,
+				AB7FCE601CE64F8300ADDF93 /* ViewControllerInicios.swift */,
 				AB6ABA3A1C3EBEE80026BC86 /* ViewController5ingredientes.swift */,
 				ABD913621C3DDB79001C4437 /* ViewControllerMasa.swift */,
 				ABD913571C3D59A3001C4437 /* Assets.xcassets */,
 				ABD913591C3D59A3001C4437 /* LaunchScreen.storyboard */,
 				ABD9135C1C3D59A3001C4437 /* Info.plist */,
 				ABD913541C3D59A3001C4437 /* PizzaApp.xcdatamodeld */,
+				AB7E31591CE8D10A00223673 /* ViewControllerGracias.swift */,
 			);
 			path = PizzaApp;
 			sourceTree = "<group>";
@@ -111,6 +172,7 @@
 				TargetAttributes = {
 					ABD913491C3D59A2001C4437 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3X5FPFF437;
 					};
 				};
 			};
@@ -138,8 +200,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD9135B1C3D59A3001C4437 /* LaunchScreen.storyboard in Resources */,
+				AB7E31561CE8C9B000223673 /* iconPizza.jpg in Resources */,
+				AB7E31471CE7E9F300223673 /* grandeSize.png in Resources */,
+				AB7E31541CE89E7600223673 /* parmesano.jpg in Resources */,
+				AB7E31521CE89DF700223673 /* cheddar.jpg in Resources */,
+				AB7E31501CE89D3100223673 /* mozzarella.png in Resources */,
+				AB7E31491CE8132B00223673 /* PIxZxZxA.png in Resources */,
+				AB7FCE641CE6633F00ADDF93 /* Luiguis.jpg in Resources */,
 				ABD913581C3D59A3001C4437 /* Assets.xcassets in Resources */,
+				AB7E31431CE7E1B200223673 /* chicaSize.png in Resources */,
+				AB7E314C1CE8982B00223673 /* soyunapizza.mp3 in Resources */,
+				AB7FCE6A1CE66DB200ADDF93 /* sliceofpizza.png in Resources */,
 				ABD913531C3D59A3001C4437 /* Main.storyboard in Resources */,
+				AB7E314E1CE89BB200223673 /* noQueso.JPG in Resources */,
+				AB3F8E2F1CE6F6CE009A2010 /* message-pizza.png in Resources */,
+				AB7E31581CE8CF2D00223673 /* enjoy.jpeg in Resources */,
+				AB7FCE661CE6651100ADDF93 /* luigis-pizza.png in Resources */,
+				AB7E31451CE7E9B400223673 /* medianaSize.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +230,9 @@
 				ABD913631C3DDB79001C4437 /* ViewControllerMasa.swift in Sources */,
 				AB6ABA3B1C3EBEE80026BC86 /* ViewController5ingredientes.swift in Sources */,
 				ABD913561C3D59A3001C4437 /* PizzaApp.xcdatamodeld in Sources */,
+				AB7FCE611CE64F8300ADDF93 /* ViewControllerInicios.swift in Sources */,
 				ABD913501C3D59A3001C4437 /* ViewController.swift in Sources */,
+				AB7E315A1CE8D10A00223673 /* ViewControllerGracias.swift in Sources */,
 				ABD9134E1C3D59A3001C4437 /* AppDelegate.swift in Sources */,
 				ABD913651C3E277C001C4437 /* ViewControllerQueso.swift in Sources */,
 				AB6ABA3D1C3EE8500026BC86 /* ViewControllerCocinar.swift in Sources */,
@@ -268,22 +347,24 @@
 		ABD913601C3D59A3001C4437 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PizzaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dunas.PizzaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		ABD913611C3D59A3001C4437 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PizzaApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Dunas.PizzaApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
