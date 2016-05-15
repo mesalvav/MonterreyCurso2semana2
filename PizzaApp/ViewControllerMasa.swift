@@ -14,7 +14,7 @@ class ViewControllerMasa: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     //var dicciOfarray = ["Tamaño":["Chico"], "Masa":["Delagada"], "Queso":["Mozarela"], "x5ingredientes":["jamøn"]]
     var arrayMasa = ["Delgada", "Crujiente", "Gruesa"]
     var masaSeleccionada = "Delgada"
-    var arrayDeGrosores = ["1/8\"=>","1/4\"=>","8/9\"=>"]
+    var arrayDeGrosores = ["Grosor = 1/8\"","Grosor = 1/4\"","Grosor = 8/9\""]
     @IBOutlet weak var masaPicker: UIPickerView!
     
     @IBOutlet weak var grosorDeMasa: UILabel!
